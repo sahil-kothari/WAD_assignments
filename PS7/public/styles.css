@@ -1,0 +1,66 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  padding: 20px;
+}
+
+h2, h3, h4 {
+  margin: 0;
+}
+
+#featured-artists, #upcoming-exhibitions {
+  margin-bottom: 30px;
+}
+
+.artist, .exhibition {
+  display: inline-block;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.artist img, .exhibition img {
+  width: 100%;
+  height: auto;
+}
+
+.artist h4, .exhibition h4 {
+  margin-top: 10px;
+}
+
+.artist p, .exhibition p {
+  margin-top: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
